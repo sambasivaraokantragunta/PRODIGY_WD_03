@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  color: black;
+  height: 100px;
+  font-size: 40px;
+}
+
+body {
+  background-color: #B9AC92; /* Changed background color */
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #4682B4; /* Changed box text color to Steel Blue */
+  background-color: #2F4F4F; /* Changed box background color to Dark Slate Grey */
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #008080; /* Changed reset button background color to Teal */
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  transition: all 0.4s;
+}
+
+#reset-btn:hover {
+  background-color: #20B2AA; /* Changed reset button hover background color to Light Sea Green */
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #008080; /* Changed new button background color to Teal */
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#new-btn:hover {
+  background-color: #20B2AA; /* Changed new button hover background color to Light Sea Green */
+}
+
+#msg {
+  color: #FFFF00; /* Changed message color to Yellow */
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
